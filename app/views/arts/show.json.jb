@@ -1,0 +1,9 @@
+{
+  id: @art.id,
+  title: @art.title,
+  url: @art.url,
+  description: @art.description,
+  format: @art.format,
+  created_at: @art.created_at,
+  updated_at: @art.updated_at
+}

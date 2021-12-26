@@ -1,0 +1,10 @@
+@arts.map do |art|
+  {
+    id: art.id,
+    title: art.title,
+    url: art.url,
+    description: art.description,
+    format: art.format,
+    url: art_url(art, format: :json)
+  }
+end
