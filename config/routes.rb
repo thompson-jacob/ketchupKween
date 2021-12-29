@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   resources :arts
   resources :posts
+
+  root 'posts#index'
   # EXAMPLE HTML ROUTE
   # get "/photos" => "photos#index"
 
